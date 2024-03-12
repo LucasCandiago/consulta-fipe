@@ -8,7 +8,7 @@ function App() {
     <div className="App container mx-auto my-4 p-4">
       <Router>
         <Routes>
-          <Route path="/login" element={<Modelos />} />
+          <Route path="/" element={<Modelos />} />
           {/* <Route path="/modelos" element={<Modelos />} /> */}
           <Route path="/informations" element={<Info />} />
         </Routes>
